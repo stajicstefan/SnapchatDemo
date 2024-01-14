@@ -16,15 +16,25 @@
         tools:targetApi="31">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC5Y5CKijiLPb4-_Q7WuBxPLhSdPf_CyF4" />
+            android:value="..." />
 
         <activity
-            android:name=".DemoTestingActivity"
-            android:exported="true"
-            android:label="@string/title_activity_demo_testing"
-            android:theme="@style/Theme.SnapchatDemo.NoActionBar" />
+            android:name=".home.HomeActivity"
+            android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".contacts.CreateContactActivity"
+            android:exported="false"
+            android:label="Kreiraj kontakt" />
+        <activity
+            android:name=".conversations.ChatActivity"
+            android:exported="false"
+            android:label="Chat" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,10 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".CreateContactActivity"
-            android:label="Kreiraj kontakt"
-            android:exported="false" />
+
     </application>
 
 </manifest>

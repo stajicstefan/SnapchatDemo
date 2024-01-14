@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SnapchatDemo</string>
+    <string name="app_name">SnapChat</string>
     <string name="title_activity_demo_testing">DemoTestingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -92,4 +92,5 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="action_add_contact">Dodaj Kontakt</string>
+    <string name="action_delete_contact">Obrisi kontakt</string>
 </resources>
